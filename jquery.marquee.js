@@ -353,7 +353,7 @@
                         } else {
                             animate();
                         }
-                    });
+                    }).delay(800);
                 }
                 //save the status
                 $this.data('runningStatus', 'resumed');
